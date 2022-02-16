@@ -1,0 +1,77 @@
+:root {
+    --yellow: #FBF3AB;
+    --light-pink: #F0B9DD;
+    --lavender: #C7B9FF;
+    --deep-pink: #F04C86;
+    --raisin: #2B283A;
+    --white: #fff;
+  }
+  
+  html, body {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 500px;
+      background-image: url(https://readable.com/wp-content/uploads/2020/02/valentinesheader-825x418.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #FEC58F;
+      background-color: var(--light-pink);
+      font-family: 'Karla', sans-serif;
+  }
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(182, 58, 64, .4);
+      border-radius: 5%;
+      padding: 10px 20px;
+      margin: 50px;
+  }
+  
+  .paragraph {    
+      background: #F8E7D5;
+      color: var(--raisin);
+      min-width: 270px;
+      padding: 1em;
+      text-align: center;
+      font-size: 1.5rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+      border-radius: 5px;
+  }
+  
+  button {
+      font-family: inherit;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+      border-radius: 5px;
+      border: none;
+      padding: 1em 2em;
+      color: #FEC58F;
+      background: #8E373E;
+  }
+  
+  button:hover,
+  button:focus {
+      transform: scale(1.02);
+      cursor: pointer;  
+  }
+  
+  label {
+      font-size: 20px;
+  }
+  
+  input {
+      box-sizing: border-box;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+      border-radius: 5px;
+      border: none;
+  }
